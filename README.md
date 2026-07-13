@@ -13,6 +13,8 @@ mvn spring-boot:run
 
 The server starts at `http://localhost:8080`.
 
+The frontend UI is served from `src/main/resources/static/index.html`. Open `http://localhost:8080/` after starting the application.
+
 ## Endpoints
 
 | Method | URL | Description |
