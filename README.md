@@ -2,6 +2,8 @@
 
 A Spring Boot REST API where banks create loans, record lump-sum payments, and check a borrower's amount paid and EMIs remaining after any EMI number. A React dashboard sits on top of the API.
 
+**Live demo:** https://ledgerco-beta.vercel.app (API: https://ledgerco-api.onrender.com, free tier, so the first load can take ~50s to wake up)
+
 ## Tech Stack
 
 **Backend:** Java 17 · Spring Boot 3 · Spring Data JPA · Bean Validation · H2 · Lombok · JUnit 5 / Mockito / MockMvc · Docker
