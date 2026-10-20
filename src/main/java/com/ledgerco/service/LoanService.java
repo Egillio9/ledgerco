@@ -110,7 +110,7 @@ public class LoanService {
                                                 bankName,
                                                 borrowerName)
                                 .orElseThrow(() -> new LoanNotFoundException(
-                                                "Loan not found"));
+                                                "Loan not found for " + borrowerName + " at " + bankName));
         }
 
         @Transactional
