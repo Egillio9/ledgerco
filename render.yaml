@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ledgerco-api
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /api/loans
+    envVars:
+      - key: CORS_ORIGINS
+        value: https://ledgerco-beta.vercel.app,http://localhost:5173
